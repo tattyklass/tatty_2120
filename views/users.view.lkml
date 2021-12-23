@@ -89,10 +89,10 @@ view: users {
     sql: ${TABLE}.state ;;
   }
 
-  dimension: state_content_val_test {
-    type: string
-    sql: ${TABLE}.state ;;
-  }
+  # dimension: state_content_val_test {
+  #   type: string
+  #   sql: ${TABLE}.state ;;
+  # }
 
   dimension: zip {
     type: zipcode
